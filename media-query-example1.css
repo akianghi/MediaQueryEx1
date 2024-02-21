@@ -9,13 +9,23 @@ img {
 figure {
 	margin: 0;
 }
+
 @media only screen and (min-width:768px){
-#header, #p-one, #p-two {
+  .header, .p-one, .p-two {
     font-size: 2em;
-    }      
-figure {
+    text-align: center;
+    }
+}      
+  figure {
         float: left;
         width: 45%;
         margin-right: 4.5%;
       }
+  figcaption {
+    font-size: 2em;
+  }
+@media only screen and (max-width: 768px){
+  .header, .p-one, .p-two{
+    font-size: 1em;
+  }
     }
